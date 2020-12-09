@@ -1,0 +1,13 @@
+.pfBlock {
+  width: 250px;
+  max-height: 440px;
+  border: 1px solid #262934;
+  margin: 0 0 0 10px;
+}
+.pfBlock img {
+  border-radius: 50%;
+}
+
+.pfBlock h5 {
+  margin: 10px 0 10px 10px;
+}

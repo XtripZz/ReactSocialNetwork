@@ -1,0 +1,19 @@
+.active {
+  color: dodgerblue;
+}
+
+.navlink {
+  width: 100px;
+  height: 30px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  transition: .1s;
+  border: 2px solid dodgerblue;
+  border-radius: 10px;
+}
+
+.navlink:hover {
+  color: dodgerblue;
+  border: 2px solid lightblue;
+}

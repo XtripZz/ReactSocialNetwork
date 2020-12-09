@@ -1,0 +1,10 @@
+.allFriends {
+  display: grid;
+  justify-items: center;
+  height: inherit;
+  transition: .1s;
+}
+
+.allFriends:hover {
+  color: dodgerblue;
+}

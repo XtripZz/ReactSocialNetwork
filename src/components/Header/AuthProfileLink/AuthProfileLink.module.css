@@ -1,0 +1,27 @@
+.authProfileLinkMainContainer {
+    display: grid;
+    justify-items: end;
+}
+
+.authProfileLinkContainer {
+    width: 125px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.authProfileLinkContainer button {
+    width: 80px;
+    height: 25px;
+    color: brown;
+    background: cornflowerblue;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    transition: .2s;
+}
+
+.authProfileLinkContainer button:hover {
+    background: #3975dd;
+    color: crimson;
+}

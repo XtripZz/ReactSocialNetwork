@@ -1,0 +1,18 @@
+.descriptionBlock {
+
+}
+
+.descriptionBlock span {
+  padding: 10px;
+}
+
+.profileAvaAndDescription {
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-auto-flow: column;
+  background: blue;
+}
+
+.userContacts {
+
+}

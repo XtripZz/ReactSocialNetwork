@@ -1,0 +1,20 @@
+.dialogs .dialogsLink {
+  grid-template-columns: 1fr 2fr;
+  height: 50px;
+  margin: 0 0 10px 0;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  border: 1px solid #262934;
+  cursor: pointer;
+  transition: .1s;
+}
+
+.dialogs .dialogsLink:hover {
+  color: dodgerblue;
+}
+
+.dialogs img {
+  width: 50px;
+  border-radius: 50%;
+}

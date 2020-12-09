@@ -1,0 +1,30 @@
+.nav {
+  grid-area: n;
+  background: #1c1e26;
+}
+
+.nav div {
+  display: grid;
+  grid-auto-rows: 38px;
+  padding: 0 0 0 5px;
+  align-items: center;
+  transition: .1s;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  height: 25px;
+}
+
+.item {
+  color: lightblue;
+}
+
+.item a:hover {
+    color: dodgerblue;
+}
+
+.item a.activeLink {
+    color: dodgerblue;
+}

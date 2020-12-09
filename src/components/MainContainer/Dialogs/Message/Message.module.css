@@ -1,0 +1,14 @@
+.message {
+  display: grid;
+  align-items: center;
+  height: 50px;
+  margin: 0 0 10px 0;
+  padding: 0 0 0 10px;
+  border: 1px solid #262934;
+  transition: .1s;
+  cursor: pointer;
+}
+
+.message:hover {
+  background: #262934;
+}

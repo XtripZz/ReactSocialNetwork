@@ -1,0 +1,10 @@
+.onlineFriends {
+  display: grid;
+  justify-items: center;
+  height: inherit;
+  transiteion: .1s;
+}
+
+.onlineFriends:hover {
+  color: dodgerblue;
+}

@@ -1,0 +1,16 @@
+.mainContainer {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "x x"
+    "n c";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 150px 1fr;
+  color: lightblue;
+}
+
+.mainContainerContent {
+  background: #12141a;
+  grid-area: c;
+}

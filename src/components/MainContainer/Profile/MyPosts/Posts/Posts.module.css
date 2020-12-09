@@ -1,0 +1,13 @@
+.posts {
+  margin: 10px 0 0 0;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+.whoLefts {
+  padding: 10px;
+}
+
+.postsMessages {
+  padding: 10px;
+}

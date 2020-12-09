@@ -1,0 +1,28 @@
+.whoLeftItem {
+  transition: .1s;
+  color: lightblue;
+}
+
+.whoLeftItem:hover {
+  color: dodgerblue;
+}
+
+.whoLeftLink {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  min-height: 50px;
+  margin: 0 0 10px 0;
+  border: 1px solid #262934;
+}
+
+.whoLeftItem img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.whoLeftItem span {
+  display: grid;
+  justify-items: center;
+}

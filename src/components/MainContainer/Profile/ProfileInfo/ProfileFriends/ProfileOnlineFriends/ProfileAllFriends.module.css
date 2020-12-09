@@ -1,0 +1,10 @@
+.onlineFriends {
+  display: grid;
+}
+
+.onlineFriends .pof {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-height: 182px;
+  overflow: hidden;
+}
