@@ -40,7 +40,6 @@ let initialState = {
         {id: 1, message: 'blabla    !', likesCount: 10},
         {id: 2, message: 'I learn props', likesCount: 14},
         {id: 3, message: 'I learn map', likesCount: 15},
-        {id: 3, message: 'I learn map', likesCount: 15},
         {id: 4, message: 'privet', likesCount: -10},
         {id: 5, message: 'hi', likesCount: 16},
         {id: 6, message: '!!!', likesCount: 11},
